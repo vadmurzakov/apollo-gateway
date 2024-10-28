@@ -74,7 +74,7 @@ server.start().then(() => {
 
     // Запуск Express сервера на порту 4000
     app.listen(4000, () => {
-        console.log('🚀 Server ready at http://localhost:4000/graphql');
-        console.log('🚀 GraphQL Voyager is available at http://localhost:4000/voyager');
+        console.log('🚀 Apollo Server ready at http://localhost:4000/graphql');
+        console.log('🚀 GraphQL Voyager ready at http://localhost:4000/voyager');
     });
 });
